@@ -2884,6 +2884,18 @@
         },
         "type": "object"
       },
+      "LogsRestrictionQueriesType": {
+        "default": "logs_restriction_queries",
+        "description": "Restriction query resource type.",
+        "enum": [
+          "logs_restriction_queries"
+        ],
+        "example": "logs_restriction_queries",
+        "type": "string",
+        "x-enum-varnames": [
+          "LOGS_RESTRICTION_QUERIES"
+        ]
+      },
       "Organization": {
         "description": "Organization object.",
         "properties": {
@@ -3975,10 +3987,15 @@
           },
           "type": {
             "default": "logs_restriction_queries",
-            "description": "Restriction queries type.",
+            "description": "Restriction query resource type.",
+            "enum": [
+              "logs_restriction_queries"
+            ],
             "example": "logs_restriction_queries",
-            "readOnly": true,
-            "type": "string"
+            "type": "string",
+            "x-enum-varnames": [
+              "LOGS_RESTRICTION_QUERIES"
+            ]
           }
         },
         "type": "object"
@@ -4060,10 +4077,15 @@
               },
               "type": {
                 "default": "logs_restriction_queries",
-                "description": "Restriction queries type.",
+                "description": "Restriction query resource type.",
+                "enum": [
+                  "logs_restriction_queries"
+                ],
                 "example": "logs_restriction_queries",
-                "readOnly": true,
-                "type": "string"
+                "type": "string",
+                "x-enum-varnames": [
+                  "LOGS_RESTRICTION_QUERIES"
+                ]
               }
             },
             "type": "object"
@@ -12728,10 +12750,15 @@
                         },
                         "type": {
                           "default": "logs_restriction_queries",
-                          "description": "Restriction queries type.",
+                          "description": "Restriction query resource type.",
+                          "enum": [
+                            "logs_restriction_queries"
+                          ],
                           "example": "logs_restriction_queries",
-                          "readOnly": true,
-                          "type": "string"
+                          "type": "string",
+                          "x-enum-varnames": [
+                            "LOGS_RESTRICTION_QUERIES"
+                          ]
                         }
                       },
                       "type": "object"
